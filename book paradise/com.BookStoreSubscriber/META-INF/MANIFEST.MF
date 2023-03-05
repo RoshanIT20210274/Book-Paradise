@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BookStoreSubscriber
+Bundle-SymbolicName: com.BookStoreSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.bookstoresubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: com.BookStoreSubscriber
+Import-Package: com.bookproducer,
+ com.cartproducer,
+ com.discountproducer,
+ com.paymentproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
